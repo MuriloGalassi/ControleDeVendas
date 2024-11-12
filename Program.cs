@@ -26,7 +26,7 @@ namespace ControleDeVendas.Models
                  switch (opcao)
                  {
                      case "1":
-                     CadastrarProduto(produtos);
+                         CadastrarProduto(produtos);
                          break;
                      case "2":
                          CadastrarCliente(clientes);
