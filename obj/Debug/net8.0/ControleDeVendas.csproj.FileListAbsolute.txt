@@ -1,0 +1,14 @@
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.AssemblyInfoInputs.cache
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.AssemblyInfo.cs
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.csproj.CoreCompileInputs.cache
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.exe
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.deps.json
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.runtimeconfig.json
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.dll
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.pdb
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.dll
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\refint\ControleDeVendas.dll
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.pdb
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.genruntimeconfig.cache
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ref\ControleDeVendas.dll
