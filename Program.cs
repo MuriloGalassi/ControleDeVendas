@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
+using ControleDeVendas.Models;
 
 namespace ControleDeVendas.Models
 {
@@ -25,25 +27,68 @@ namespace ControleDeVendas.Models
                  string opcao = Console.ReadLine();
                  switch (opcao)
                  {
-                     case "1":
-                     CadastrarProduto(produtos);
-                         break;
-                     case "2":
-                         CadastrarCliente(clientes);
-                         break;
-                     case "3":
-                         RealizarVenda(produtos, clientes, vendas);
-                         break;
-                     case "4":
-                         ExibirRelatorioVendas(vendas);
-                         break;
-                     case "5":
-                         return;
-                     default:
-                         Console.WriteLine("Opção inválida. Tente novamente.");
-                         break;
+                      case "1":
+                          CadastrarProduto(produtos);
+                          break;
+                      case "2":
+                          CadastrarCliente(clientes);
+                          break;
+                      case "3":
+                          RealizarVenda(produtos, clientes, vendas);
+                          break;
+                      case "4":
+                          ExibirRelatorioVendas(vendas);
+                          break;
+                      case "5":
+                          return;
+                      default:
+                          Console.WriteLine("Opção inválida. Tente novamente.");
+                          break;
                  }
              }
+        }
+
+        static void CadastrarProduto(List<Produto> produtos)
+        {
+            Console.WriteLine("\nNome do Produto: ");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Preço do Preoduto: ");
+            decimal preco = decimal.Parse(Console.ReadLine());
+
+            Console.WriteLine("Quantidade em Estoque: ");
+            int quantidade = int.Parse(Console.ReadLine());
+
+            produtos.Add(new Produto(nome, preco, quantidade));
+            Console.WriteLine("Produto cadastrado com sucesso!");
+        }
+
+        static void CadastrarCliente(List<Cliente> clientes);
+        {
+            Console.WriteLine("\nNome do Cliente: ");
+            string nome = Console.ReadLine();
+
+            string cpf;
+
+            while (true)
+            {
+                Console.WriteLine("CPF do Cliente (somente números): ");
+                cpf = Console.ReadLine();
+
+
+                if(cpf.length == 11 && cpf.all(char.IsDigit))
+                {
+                    break;
+                }
+
+                else
+                {
+                    Console.WriteLine("CPF inválido. Deve conter exatamente 11 dígitos.");
+                }
+            }
+
+            cliente.Add(new Cliente(nome, cpf));
+            Console.WriteLine("Cliente cadastrado com sucesso!");
         }
     }
 }

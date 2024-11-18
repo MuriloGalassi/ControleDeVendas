@@ -12,3 +12,4 @@ C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\D
 C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.pdb
 C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.genruntimeconfig.cache
 C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ref\ControleDeVendas.dll
+C:\Users\murilo.galassi.SEESP\Documents\Estudo.Documentos\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.sourcelink.json
