@@ -90,5 +90,29 @@ namespace ControleDeVendas.Models
             clientes.Add(new Cliente(nome, cpf));
             Console.WriteLine("Cliente cadastrado com sucesso!");
         }
+
+        static void RealizarVenda(List<Produto> produtos, List<Cliente> clientes, List<Venda> vendas)
+        {
+            Console.WriteLine("\nSelecione um Cliente: ");
+            for (int i = 0; i < clientes.Count; i++)
+            {
+                Console.WriteLine($"{i + 1} - {clientes[i].Nome}");
+            }
+            int clienteIndex = int.Parse(Console.ReadLine()) - 1;
+
+            if ( clienteIndex < 0 || clienteIndex >= clientes.Count)
+            {
+                Console.WriteLine("Cliente invalido.");
+                return;
+            }
+
+            Cliente cliente = clientes[clienteIndex];
+            List<ItemVenda> itemVendas = new List<ItemVenda>();
+
+            while (true)
+            {
+                            
+            }
+        }
     }
 }
