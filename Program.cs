@@ -63,7 +63,7 @@ namespace ControleDeVendas.Models
             Console.WriteLine("Produto cadastrado com sucesso!");
         }
 
-        static void CadastrarCliente(List<Cliente> clientes);
+        static void CadastrarCliente(List<Cliente> clientes)
         {
             Console.WriteLine("\nNome do Cliente: ");
             string nome = Console.ReadLine();
@@ -76,7 +76,7 @@ namespace ControleDeVendas.Models
                 cpf = Console.ReadLine();
 
 
-                if(cpf.length == 11 && cpf.all(char.IsDigit))
+                if(cpf.Length == 11 && cpf.All(char.IsDigit))
                 {
                     break;
                 }
@@ -87,7 +87,7 @@ namespace ControleDeVendas.Models
                 }
             }
 
-            cliente.Add(new Cliente(nome, cpf));
+            clientes.Add(new Cliente(nome, cpf));
             Console.WriteLine("Cliente cadastrado com sucesso!");
         }
     }
