@@ -21,3 +21,10 @@ C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\obj\Debug\net8.0\Cont
 C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.dll
 C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\obj\Debug\net8.0\refint\ControleDeVendas.dll
 C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.pdb
+C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.exe
+C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.deps.json
+C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.runtimeconfig.json
+C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.dll
+C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\bin\Debug\net8.0\ControleDeVendas.pdb
+C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\obj\Debug\net8.0\ControleDeVendas.genruntimeconfig.cache
+C:\Users\muril\source\repos\MuriloGalassi\ControleDeVendas\obj\Debug\net8.0\ref\ControleDeVendas.dll

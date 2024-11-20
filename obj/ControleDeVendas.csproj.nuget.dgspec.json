@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ControleDeVendas\\ControleDeVendas.csproj": {}
+    "C:\\Users\\muril\\source\\repos\\MuriloGalassi\\ControleDeVendas\\ControleDeVendas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ControleDeVendas\\ControleDeVendas.csproj": {
+    "C:\\Users\\muril\\source\\repos\\MuriloGalassi\\ControleDeVendas\\ControleDeVendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ControleDeVendas\\ControleDeVendas.csproj",
+        "projectUniqueName": "C:\\Users\\muril\\source\\repos\\MuriloGalassi\\ControleDeVendas\\ControleDeVendas.csproj",
         "projectName": "ControleDeVendas",
-        "projectPath": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ControleDeVendas\\ControleDeVendas.csproj",
-        "packagesPath": "C:\\Users\\murilo.galassi.SEESP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\murilo.galassi.SEESP\\Documents\\Estudo.Documentos\\ControleDeVendas\\obj\\",
+        "projectPath": "C:\\Users\\muril\\source\\repos\\MuriloGalassi\\ControleDeVendas\\ControleDeVendas.csproj",
+        "packagesPath": "C:\\Users\\muril\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\muril\\source\\repos\\MuriloGalassi\\ControleDeVendas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\murilo.galassi.SEESP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\muril\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -111,8 +111,58 @@ namespace ControleDeVendas.Models
 
             while (true)
             {
-                            
+                Console.WriteLine("\nSelecione um Produto para Adicionar à Venda:");
+                for(int i = 0;i < produtos.Count;i++)
+                {
+                    Console.WriteLine($"{i + 1} - {produtos[i].Nome} (Estoque: {produtos[i].QuntidadeEmEstoque})");
+                }
+
+                int produtosIndex = int.Parse(Console.ReadLine()) - 1;
+
+                if (produtosIndex < 0 || produtosIndex >= produtos.Count)
+                {
+                    Console.WriteLine("Produto invalido");
+                    return;
+                }
+
+                Produto produto = produtos[produtosIndex];
+
+                Console.WriteLine("Quantidade");
+                int quantidade = int.Parse(Console.ReadLine());
+
+                if (quantidade > produto.QuntidadeEmEstoque)
+                {
+                    Console.WriteLine("Estoque Insuficiente.");
+                    continue;
+                }
+                
+                produto.QuntidadeEmEstoque = quantidade;
+                itemVendas.Add(new ItemVenda(produto, quantidade));
+
+                Console.WriteLine("Deseja adicionar outro produto? (a/n): ");
+                if (Console.ReadLine().ToLower() != "S") break;
+            }
+
+            Venda venda = new Venda(cliente, itemVendas);
+            vendas.Add(venda);
+
+            Console.WriteLine($"Venda realizada com sucesso! Total: {venda.TotalVenda():C2}");
+        }
+
+        static void ExibirRelatorioVendas(List<Venda> vendas)
+        {
+            Console.WriteLine("\n==== Relatório de Vendas ====");
+            foreach (var venda in vendas)
+            {
+                Console.WriteLine($"Cliente: {venda.Cliente.Nome}");
+                Console.WriteLine("Itens Vendidos:");
+                foreach (var item in venda.ItensVendas)
+                {
+                    Console.WriteLine($"- {item.Produto.Nome} (Qtd: {item.Quantidade}, Preço: {item.Produto.Preco:C2})");
+                }
+                Console.WriteLine($"Total da Venda: {venda.TotalVenda():C2}\n");
             }
         }
+
     }
 }
