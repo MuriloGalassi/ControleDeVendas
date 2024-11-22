@@ -53,7 +53,7 @@ namespace ControleDeVendas.Models
             Console.WriteLine("\nNome do Produto: ");
             string nome = Console.ReadLine();
 
-            Console.WriteLine("Preço do Preoduto: ");
+            Console.WriteLine("Preço do Produto: ");
             decimal preco = decimal.Parse(Console.ReadLine());
 
             Console.WriteLine("Quantidade em Estoque: ");
@@ -139,8 +139,8 @@ namespace ControleDeVendas.Models
                 produto.QuntidadeEmEstoque = quantidade;
                 itemVendas.Add(new ItemVenda(produto, quantidade));
 
-                Console.WriteLine("Deseja adicionar outro produto? (a/n): ");
-                if (Console.ReadLine().ToLower() != "S") break;
+                Console.WriteLine("Deseja adicionar outro produto? (s/n): ");
+                if (Console.ReadLine().ToLower() != "s") break;
             }
 
             Venda venda = new Venda(cliente, itemVendas);
